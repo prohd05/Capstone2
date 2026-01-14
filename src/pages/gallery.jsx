@@ -47,7 +47,7 @@ function gallery(){
                         </div>
 
                         <div className={styles.image4}> 
-                            <p className='caption2'> Clarity PetalS 
+                            <p className='caption2'> Clarity Petals 
                             <span className='heading4'> $55/Bunch </span> </p>
                             <img src={g4} alt="gallery image"/>
                         </div>
