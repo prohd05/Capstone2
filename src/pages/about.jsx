@@ -1,5 +1,5 @@
 import Footer from '../comp/footer'
-import styles from '../styles/About.module.css'
+import styles from '../styles/about.module.css'
 
 
 import Lady from '../assets/owner/Image.png'
