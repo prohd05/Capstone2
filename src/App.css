@@ -1,0 +1,54 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.who_we_Are{
+  padding:40px;
+}
+
+.Carousel{
+  display: flex;
+  justify-content: center;
+  max-width: 92vw;
+  gap:20px;
+  padding: 10px 0px;
+}
+
+.Carousel img{
+  width: 240px;
+  height: 240px;
+}
+
+.section1{
+  padding:20px;
+}
+
+.section1 img{
+  width: 145.14px; 
+  height: 145.14px;
+  border-radius: 15px;
+}
+
+.section1 hr{
+  margin-top: 20px;
+}
+
+.work_with_us{
+  padding:174px 200px;
+}
+
+@media screen and (max-width:799px) {
+  #root{
+    padding:1rem 1rem;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width:1199px) {
+  #root{
+    padding: 20px 0px;
+  }
+}
+

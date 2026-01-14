@@ -1,0 +1,41 @@
+.content{
+    display: grid;
+    grid-template-areas: 'head head mod1 mod1 mod1 mod1 mod1 mod1 mod1 mod1 mod1' 
+    'head head mod2 mod2 mod2 mod2 mod2 mod2 mod2 mod2 mod2' 'head head mod3 mod3 mod3 mod3 mod3 mod3 mod3 mod3 mod3' ;
+}
+
+.header{
+    grid-area: head;
+}
+
+.module1{
+    display: flex;
+    text-align: start;
+    padding:30px 0px;
+    justify-content: space-between;
+    grid-area: mod1;
+}
+
+.module2{
+    display: flex;
+    text-align: start;
+    padding:30px 0px;
+    justify-content: space-between;
+    grid-area: mod2;
+}
+
+.module3{
+    display: flex;
+    text-align: start;
+    padding:30px 0px;
+    justify-content: space-between;
+    grid-area: mod3;
+}
+
+@media screen and (max-width:799px) {
+    .module{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
