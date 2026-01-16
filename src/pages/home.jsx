@@ -53,14 +53,8 @@ function home(){
                     <img src={sec2} alt="section image"/>
                     <p className='heading1'> NATIVE PLANT ARRANGEMENTS </p>
                     <p className='paragraph1'> Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations. </p>
-                    <hr/>
-
-                    
-                </div> <picture> 
-                    <source media='(min-width:1200px)' srcSet={mid1}/>
-                    <source media='(min-width:800px)' srcSet={mid2}/>
-                    <img src={mid3}/>
-                </picture>
+                    <hr/> 
+                </div> 
                 
                 <div className='section1'>
                     <p className='heading1'> 3 </p>
@@ -69,6 +63,12 @@ function home(){
                     <p className='paragraph1'> Your vision, our blooms. We build arrangements that are both personal and exquisitely simple. Whether it’s a private retreat or a public space, we craft floral experiences that bloom beyond expectations. </p>
                     <hr/>
                 </div>
+                
+                <picture> 
+                    <source media='(min-width:1200px)' srcSet={mid1}/>
+                    <source media='(min-width:800px)' srcSet={mid2}/>
+                    <img src={mid3}/>
+                </picture>
                 <Work/>
             </div>
         </>
