@@ -33,8 +33,8 @@ function About(){
             <p className='heading1'>ABOUT</p>
         </div>
         <div className={styles.container}>
-            <div>
-                <p className={styles.cap}>Our Story</p>
+            <div className={styles.cap}>
+                <p className={styles.caption1}>Our Story</p>
             </div>
             <div className={styles.rightColumnContainer}>
                 <div className={styles.AuthorInformation}>
